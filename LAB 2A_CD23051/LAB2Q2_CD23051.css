@@ -1,0 +1,60 @@
+	/* Body */
+	body {
+		font-family: Arial, sans-serif;
+	}
+
+	/* Title */
+	h2 {
+		color: #8cc63f;
+		font-weight: bold;
+	}
+
+	/* Table */
+	table {
+		border-collapse: collapse;
+		width: 700px;
+		border: 2px solid #8cc63f;
+	}
+
+	/* All cells */
+	td, th {
+		border: 1px solid #8cc63f;
+		padding: 8px;
+	}
+
+	/* Section headers (Profile, Education, etc.) */
+	th[colspan="3"],
+	th[colspan="2"] {
+		background-color: #8cc63f;
+		color: white;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	/* Left column labels (Name, Age, etc.) */
+	th {
+		background-color: #eaf5d3;
+		text-align: left;
+	}
+
+	/* Image cell */
+	td img {
+		display: block;
+		margin: auto;
+	}
+
+	/* Education & Achievement headings row */
+	td b {
+		font-weight: bold;
+	}
+
+	/* Hobby list */
+	ul {
+		list-style-type: square;
+		padding-left: 20px;
+	}
+
+	/* Optional: make rows cleaner */
+	tr:nth-child(even) td {
+		background-color: #f9f9f9;
+	}
